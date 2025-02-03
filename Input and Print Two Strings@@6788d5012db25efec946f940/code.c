@@ -3,9 +3,9 @@
 // 
 
 int main() {
-    char a[20],b[20];
-    scanf("%c",&a);
-    scanf("%c",&b);
-    printf("\nYou entered: %c and %c\n",a,b);
+    char a[100],b[100];
+    scanf("%s",&a);
+    scanf("%s",&b);
+    printf("You entered: %s and %s",a,b);
     return 0;
 }
