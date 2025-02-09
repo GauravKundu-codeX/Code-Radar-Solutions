@@ -9,9 +9,9 @@ int main() {
 
     // Check if the number is not greater than zero
     if (!(num > 0)) {
-        printf("False");
-    } else {
         printf("True");
+    } else {
+        printf("False");
     }
 
     return 0;
