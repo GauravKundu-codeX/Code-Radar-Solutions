@@ -1,4 +1,6 @@
+#include <stdio.h>
 int main() {
+
     char ch;
 
     // Input from user
@@ -11,15 +13,15 @@ int main() {
     }
     // Check if the character is a letter (consonant)
     else if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) {
-        printf("Consonant\n");
+        printf("Consonant");
     }
     // Check if the character is a digit
     else if (ch >= '0' && ch <= '9') {
-        printf("Digit\n");
+        printf("Digit");
     }
     // Otherwise, it's a special character
     else {
-        printf("Special character\n");
+        printf("Special character");
     }
 
     return 0;
