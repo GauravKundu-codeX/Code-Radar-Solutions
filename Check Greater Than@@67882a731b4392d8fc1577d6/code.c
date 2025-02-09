@@ -1,14 +1,10 @@
 #include <stdio.h>
-
-
-
-int main() {
-    int first,second;
-    scanf("%d",&first);
-    scanf("%d",&second);
-    if(first>second){
+int main(){
+    int a,b;
+    scanf("%d" "%d",&a,&b);
+    if(a>b){
         printf("True");
-    } else{
+    }else{
         printf("False");
     }
     return 0;
