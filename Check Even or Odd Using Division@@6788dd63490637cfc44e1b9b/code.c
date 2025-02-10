@@ -6,7 +6,7 @@ int main() {
     scanf("%d", &number);
 
     // Using division logic
-    if ((number / 2) * 2 == number) {
+    if ((number / 2.0) * 2 == number) {
         printf("Even");
     } else {
         printf("Odd");
