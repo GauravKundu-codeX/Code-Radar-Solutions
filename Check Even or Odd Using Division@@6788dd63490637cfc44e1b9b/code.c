@@ -1,15 +1,16 @@
 #include <stdio.h>
 
-
-
 int main() {
-    int a;
-    scanf("%d",&a);
-    if(a%2==0){
+    int number;
+
+    scanf("%d", &number);
+
+    // Using division logic
+    if ((number / 2) * 2 == number) {
         printf("Even");
-    }
-    else{
+    } else {
         printf("Odd");
     }
-    return 0;
+
+    return 0
 }
