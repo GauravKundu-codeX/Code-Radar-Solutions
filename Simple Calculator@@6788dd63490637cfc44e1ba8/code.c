@@ -5,23 +5,25 @@
 int main() {
     int a,b;
     char c;
+    int res;
     scanf("%d" "%d" "%c",&a,&b,&c);
     if(c=='+'){
-        printf("%d",a+b);
+        res = a+b;
     }
     else if(c=='-'){
-        printf("%d",a-b);
+        res = a-b;
     }
     else if(c=='*'){
-        printf("%d",a*b);
+        resv = a*b;
     }
     else if(c=='/'){
        if(b==0){
         printf("Invalid");
        }
        else{
-        printf("%d",a/b);
+        res = a/b;
        }
     }
+    printf("%d",res);
     return 0;
 }
