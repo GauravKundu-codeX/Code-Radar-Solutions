@@ -7,13 +7,13 @@ int main() {
     char c;
     scanf("%d" "%d" "%c",&a,&b,&c);
     if(c=='+'){
-        print("%d",a+b);
+        printf("%d",a+b);
     }
     else if(c=='-'){
-        print("%d",a-b);
+        printf("%d",a-b);
     }
     else if(c=='*'){
-        print("%d",a*b);
+        printf("%d",a*b);
     }
     else if(c=='/'){
        if(b==0){
