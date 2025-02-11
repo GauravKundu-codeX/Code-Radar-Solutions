@@ -14,7 +14,7 @@ int main() {
         res = a-b;
     }
     else if(c=='*'){
-        resv = a*b;
+        res = a*b;
     }
     else if(c=='/'){
        if(b==0){
