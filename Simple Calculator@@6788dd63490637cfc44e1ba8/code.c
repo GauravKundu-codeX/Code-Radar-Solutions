@@ -18,7 +18,7 @@ int main() {
             break;
         case '/':
             if (b == 0) {
-                printf("Division by zero is undefined");
+                printf("error");
             } else {
                 printf("%d",a / b);
             }
