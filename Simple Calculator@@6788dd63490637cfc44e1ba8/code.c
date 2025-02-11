@@ -1,29 +1,31 @@
 #include <stdio.h>
 
-
-
 int main() {
-    int a,b;
-    char c;
-    int res;
-    scanf("%d" "%d" "%c",&a,&b,&c);
-    if(c=='+'){
-        res = a+b;
+    int a, b;
+    char op;
+   
+    scanf("%d %d %c", &a, &b, &op);
+    
+    switch (op) {
+        case '+':
+            printf("%d",a + b);
+            break;
+        case '-':
+            printf("%d",a - b);
+            break;
+        case '*':
+            printf("%d",a * b);
+            break;
+        case '/':
+            if (b == 0) {
+                printf("Division by zero is undefined");
+            } else {
+                printf("%d"a / b);
+            }
+            break;
+        default:
+            printf("Invalid operator");
     }
-    else if(c=='-'){
-        res = a-b;
-    }
-    else if(c=='*'){
-        res = a*b;
-    }
-    else if(c=='/'){
-       if(b==0){
-        printf("Invalid");
-       }
-       else{
-        res = a/b;
-       }
-    }
-    printf("%d",res);
+    
     return 0;
 }
