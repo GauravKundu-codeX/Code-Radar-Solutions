@@ -6,11 +6,11 @@ int main(){
     scanf("%d",&a);
     for(int i=2,i<a,i++;){
         if(a%i==0){
-            print("Not Prime");
+            printf("Not Prime");
             break;
         }
         else{
-            print("Prime");
+            printf("Prime");
         }
     }
     return 0;
